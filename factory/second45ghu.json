@@ -1,0 +1,9 @@
+{
+	"name": "second45ghu",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bc87e92a-f594-472c-ab70-6ab130c37fdb",
+		"tenantId": "8116a1d4-114e-45f1-b222-514a62386b11"
+	}
+}
