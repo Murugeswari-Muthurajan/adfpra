@@ -1,7 +1,7 @@
 # genai.py
 import streamlit as st
 import os
-import openai_helper
+#import openai_helper
 import csv
 
 # Set the title and subtitle of the app
