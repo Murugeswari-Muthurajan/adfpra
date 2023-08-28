@@ -38,7 +38,7 @@ from langchain.chat_models import ChatOpenAI
 os.environ['OPENAI_API_KEY'] = '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'
 
 # Text Splitter to Chunks
-loader = PyPDFLoader("q3-2022-corporate-overview.pdf")
+loader = PyPDFLoader("./q3-2022-corporate-overview.pdf")
 pdfData = loader.load()
 text_splitter = TokenTextSplitter(chunk_size=1000, chunk_overlap=0)
 splitData = text_splitter.split_documents(pdfData)
